@@ -1,0 +1,15 @@
+git init => initialise git repository
+git status => To see status of git repository
+git add => To stage file/folder in staging area
+git commit -m "message for the commit" => To commit changes(take a snapshot of current version of file/folder) {
+    -m => this flag allows to write message in terminal
+}
+
+git log => To see commit log history {
+    -p
+    --status
+    --pretty= oneline
+    --since = (time, eg. 2days)
+}
+
+git diff => To see difference between current file & staged file
