@@ -15,3 +15,8 @@ git log => To see commit log history {
 git diff => To see difference between current file & staged file
 
 git config --global alias.(alias you want to create) (git command of which you are creating alias of (if command has multiple entity put it in ''))
+
+
+git checkout -b (Branch Name) => This will create a new branch
+git checkout (Branch name) => This will swithch to the specified branch
+git branch => To see all branches
